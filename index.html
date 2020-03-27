@@ -26,8 +26,23 @@
           <textarea class="form-control" id="pasteBox" placeholder="Paste your text here" rows="12"></textarea>
           <button class="btn btn-lg btn-primary btn-block mt-2" data-clipboard-target="#pasteBox"
             type="button">Copy</button>
-          <p class="mt-5 mb-3 text-muted text-center">:-)</p>
         </form>
+      </div>
+    </div>
+
+    <div class="row mt-5 justify-content-md-center">
+      <div class="col-lg-4">
+      <form>
+      <h2 class="h5 mt-3 font-weight-normal text-center">Share This Page</h2>
+      <label for="directLink">Here's a nice URL for you and your friends.</label>
+      <div class="input-group">
+      <input id="directLink" type="text" class="form-control" value="https://go.uvm.edu/unformat" maxlength="130">
+      <div class="input-group-append">
+      <button class="btn btn-outline-secondary btn-clipboard" data-clipboard-target="#directLink" type="button"><img src="clippy.svg" width="16" height="18" alt="Copy to clipboard"></button>
+      </div>
+      </div>
+      </form>
+          <p class="mt-5 mb-3 text-muted text-center">:-)</p>
       </div>
     </div>
   </div>
